@@ -2,7 +2,6 @@
 
 [![Degree](https://img.shields.io/badge/BSc_Computer_Science-First_Class_Honours-blue?style=flat-square)](https://www.kingston.ac.uk)
 [![Location](https://img.shields.io/badge/Location-London%2C_UK-red?style=flat-square&logo=googlemaps&logoColor=white)](#)
-[![Focus](https://img.shields.io/badge/Seeking-Software_Engineering_Graduate_Roles-brightgreen?style=flat-square)](#)
 
 I am a **Computer Science Graduate** from **Kingston University** based in London, UK. 
 
