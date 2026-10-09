@@ -1,70 +1,90 @@
-<div align="center">
+# Hi, I'm Mudabbir Ahmad 👋
 
-# Mudabbir Ahmad
+[![Degree](https://img.shields.io/badge/BSc_Computer_Science-First_Class_Honours-blue?style=flat-square)](https://www.kingston.ac.uk)
+[![Location](https://img.shields.io/badge/Location-London%2C_UK-red?style=flat-square&logo=googlemaps&logoColor=white)](#)
 
-Software engineer based in London
+I am a **Computer Science Graduate** from **Kingston University** based in London, UK. 
 
-[Portfolio](https://mudabbir.tech) · [LinkedIn](https://www.linkedin.com/in/mudabbir-ahmad-4245a0281/) · [Email](mailto:mudabbira.uk@gmail.com)
-
-</div>
-
----
-
-## About
-
-I graduated from Kingston University in July 2026 with a First in BSc Computer Science (BCS accredited) and I'm now looking for my first full-time graduate engineering role.
-
-I like owning a problem from the first sketch through to something running for real people. My final-year project, MASS, is a React Native app that brings photos and video from a phone, Google Photos and a home NAS into one timeline, backed by an Express.js API and a CI/CD pipeline. Outside university I've built a GPS treasure hunt game, a native Android habit tracker in Kotlin and a 240 GHz Doppler radar on an ESP32.
-
-Infrastructure is the other half of what I do. Since 2020 I've spent my summers as a volunteer network engineer for a large multi-site event, keeping thousands of concurrent users online at 99.9% uptime. At home I run a Proxmox homelab with around 15 self-hosted services.
-
-I'm currently working through Go and C++ and building a Discord bot that combines cloud and local language models.
-
-## Selected projects
-
-**[MASS: Media Aggregation & Sorting System](https://github.com/mudabbir-ahmad/Abstracted-MASS-PublicVer)**
-Final-year project. A cross-platform app that merges device storage, Google Photos and a NAS into one timeline. API response caching cut retrieval latency by around 30%.
-`React Native` `Expo` `Node.js` `Express.js`
-
-**[Portfolio](https://github.com/mudabbir-ahmad/Portfolio_V1)**
-This site, [mudabbir.tech](https://mudabbir.tech). Content is driven by JSON files, with a live GitHub activity tracker and a multi-stage Docker build that runs as a non-root user.
-`React` `Tailwind CSS` `Express.js` `Docker`
-
-**[Location-Based Treasure Hunt](https://github.com/mudabbir-ahmad/MAD-Treasure-Hunt)**
-GPS and proximity game where players claim hidden caches by physical location. Live bearing and distance come from the geolocation and compass APIs, and the REST backend reached 90% unit-test coverage.
-`React Native` `REST API` `Jest`
-
-**[Routines](https://github.com/mudabbir-ahmad/Kotlin-TB2P1)**
-Native Android habit tracker built with MVVM and Room for offline-first storage, with reminder notifications.
-`Kotlin` `Android Studio` `MVVM` `Room`
-
-**[QR Code Treasure Hunt](https://github.com/mudabbir-ahmad/Treasure-Hunt-App)**
-Group scavenger hunt where players scan QR codes to claim items. Includes server-side scan validation and a real-time leaderboard.
-`React` `JavaScript`
-
-**240 GHz Doppler Radar** (private)
-An ESP32 processes raw sensor data in real time to track three moving targets, with results served live over Wi-Fi to a web dashboard.
-`ESP32` `Arduino`
-
-## Stack
-
-**Languages:** Java, JavaScript, Kotlin, Python, Go, C++, SQL, Bash
-**Frameworks:** React, React Native, Node.js, Express.js, Expo, Tailwind CSS
-**Tools:** Docker, Linux (Debian), Nginx, Proxmox, Git, CI/CD, Android Studio, IntelliJ IDEA
-**Practices:** RESTful API design, unit testing, MVVM, Agile/Scrum
-
-## Homelab
-
-A single-node Proxmox host running around 15 services, including Gitea, Vaultwarden, Immich, Home Assistant and Pi-hole, behind an Nginx reverse proxy. Remote access runs over Tailscale, WireGuard and OpenVPN. Local language models are served to a chat front end on the same host.
-
-## Public repositories
-
-Most of my coursework and personal projects are private. These are the public ones:
-
-- [LearningGo](https://github.com/mudabbir-ahmad/LearningGo): small programs and notes from learning Go
-- [Project-MAD-crudler](https://github.com/mudabbir-ahmad/Project-MAD-crudler): a CRUD(L) demo app built to learn React Native
-- [Opera-GX-Styled-Floorp-Sidebar](https://github.com/mudabbir-ahmad/Opera-GX-Styled-Floorp-Sidebar): a userChrome.css sidebar that floats over the active tab
+I specialize in cross-platform mobile development, RESTful API design, and core software engineering principles. My focus is on delivering efficient backends in **Node.js/Express.js**, **Java**, and **Go**, coupled with responsive frontends in **React Native** and **React.js**.
 
 ---
 
-Open to graduate software engineering roles.
+## 🛠️ Tech Stack & Languages
+
+### **Languages**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### **Frameworks & Web**
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Android SDK](https://img.shields.io/badge/Android_SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
+
+### **DevOps & Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### **IDEs & Tools**
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+
+### 📺 [MASS – Media Aggregation & Sorting System](https://github.com/mudabbir-ahmad/Media-Aggregation-and-Sorting-System)
+*Final Year University Project*
+* Engineered a cross-platform mobile application aggregating content streams from separate endpoints into a unified interface.
+* Implemented an in-memory caching layer in **Express.js** to optimize payload deliveries and reduce API latency by **30%**.
+* Automated build verification cycles with integrated **CI/CD pipelines**, cutting integration times by **20%**.
+* **Tech Stack:** `React Native` `Expo` `Node.js` `Express.js` `REST API`
+
+---
+
+### 📍 [Location-Based Treasure Hunt App](https://github.com/mudabbir-ahmad/MAD-Treasure-Hunt)
+* Mobile game driven by real-time GPS coordinates and hardware compass orientation to compute bearing/distance toward physical caches.
+* Designed and tested custom RESTful backend endpoints achieving **90% code coverage**.
+* **Tech Stack:** `React Native` `Geolocation API` `REST API` `Jest`
+
+---
+
+### 📱 [Routines App](https://github.com/mudabbir-ahmad/Kotlin-TB2P1)
+* Native Android habit tracking application constructed on the **MVVM** pattern.
+* Configured local SQLite/Room data persistence and native system notification schedules for routine habit reminders.
+* **Tech Stack:** `Kotlin` `Android Studio` `MVVM` `Room`
+
+---
+
+### 📑 [CV Builder Application](https://github.com/mudabbir-ahmad/CV-Builder)
+* Desktop GUI application applying **Object-Oriented Design (OOD)** principles and Swing layout managers to dynamically export structured documents.
+* **Tech Stack:** `Java` `Java Swing` `OOP`
+
+---
+
+## 💻 Working Environment & Infrastructure
+
+| Setup | Operating System / Platform | Usage |
+| :--- | :--- | :--- |
+| **Desktop Workstation** | Windows 11 Pro | Primary Development & Daily Work |
+| **Mobile Workstation** | macOS | Portable Development |
+| **Homelab Server** | Proxmox VE (Single-Node Mini PC) | Containerized Microservices & Self-Hosted Infrastructure |
+
+---
+
+## 📫 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mudabbir-ahmad-4245a0281/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mudabbira.uk@gmail.com)
