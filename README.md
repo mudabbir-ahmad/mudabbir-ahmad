@@ -1,8 +1,8 @@
 <h1 align="center">Mudabbir Ahmad</h1>
 
 <p align="center">
-  Graduate software engineer in London, UK<br>
-  BSc Computer Science (First Class Honours), Kingston University
+  Software engineer in London<br>
+  I build things end to end, then host them on hardware in my own house
 </p>
 
 <p align="center">
@@ -13,9 +13,18 @@
 
 ---
 
-I graduated in July 2026 and I'm looking for my first full-time software engineering role. I like owning a problem from the first sketch through to something that is actually running somewhere, whether that's a React Native app, the Express API behind it, or the server it's deployed on.
+## About me
 
-My day-to-day stack is **React, React Native and Node.js**, with a lot of **Java** from university. I'm currently learning **C++** and **Go** properly. Outside of coding I run a Proxmox homelab with around 15 self-hosted services, and I've spent every summer since 2020 volunteering as a network engineer at a large multi-site event.
+I like taking a problem all the way from a rough idea to something that is running and being used. That usually means a React or React Native front end, an Express or Node API behind it, and a Docker container on a server I set up myself. I'd rather understand the whole stack than one layer of it.
+
+A lot of my time goes into things that sit around the code: networks, self-hosting, local LLMs, and the odd bit of hardware. If something can run on my own machines, I've probably tried it.
+
+| | |
+| :-- | :-- |
+| **Right now** | Learning **C++** and **Go** properly, building my own self-hosted media server, and improving a Discord bot that joins voice calls |
+| **Most at home in** | React, React Native, Node.js and Java |
+| **Ask me about** | Self-hosting, Proxmox, Docker, reverse proxies, local LLMs, mobile apps |
+| **Based in** | London, UK |
 
 ## Tech
 
@@ -28,18 +37,18 @@ My day-to-day stack is **React, React Native and Node.js**, with a lot of **Java
 | **Infrastructure** | <img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,githubactions&perline=5" alt="Linux, Debian, Docker, Nginx, GitHub Actions" height="40"> <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox"> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale"> |
 | **Tools** | <img src="https://skillicons.dev/icons?i=git,github,idea,vscode,androidstudio,arduino&perline=6" alt="Git, GitHub, IntelliJ IDEA, VS Code, Android Studio, Arduino" height="40"> |
 
-## Selected projects
+## What I build
 
 | Project | What it is | Stack |
 | :-- | :-- | :-- |
-| [**MASS**](https://github.com/mudabbir-ahmad/Abstracted-MASS-PublicVer) | Final-year project. A cross-platform app that merges device storage, Google Photos and a home NAS into one timeline. Response caching in the Express API cut retrieval latency by around 30%, and a CI/CD pipeline cut integration time by around 20%. | `React Native` `Expo` `Express.js` |
-| [**Location-Based Treasure Hunt**](https://github.com/mudabbir-ahmad/MAD-Treasure-Hunt) | A GPS and compass driven mobile game. Players get live bearing and distance to hidden caches. The REST backend reached 90% unit-test coverage. | `React Native` `REST` `Jest` |
-| [**Routines**](https://github.com/mudabbir-ahmad/Kotlin-TB2P1) | A native Android habit tracker with offline-first storage and scheduled reminders. | `Kotlin` `MVVM` `Room` |
-| [**QR Code Treasure Hunt**](https://github.com/mudabbir-ahmad/Treasure-Hunt-App) | A group project: a web scavenger hunt with QR code generation, server-side scan validation and a live leaderboard. | `React` `JavaScript` |
-| **240 GHz Doppler Radar** | An ESP32 reads raw radar data in real time to track three moving targets and streams the results to a web dashboard over Wi-Fi. | `ESP32` `Arduino` |
-| [**Portfolio**](https://mudabbir.tech) | My portfolio site, with a live GitHub activity feed served by an Express endpoint that caches the GraphQL API and keeps the token server-side. Ships as a non-root multi-stage Docker image. | `React` `Tailwind CSS` `Express.js` `Docker` |
-
-I also keep a small [Opera GX style sidebar for Floorp](https://github.com/mudabbir-ahmad/Opera-GX-Styled-Floorp-Sidebar), a CSS tweak that floats the sidebar over the page instead of tiling it.
+| [**MASS**](https://github.com/mudabbir-ahmad/Abstracted-MASS-PublicVer) | A cross-platform app that pulls photos and video from a phone, Google Photos and a home NAS into one timeline. Includes the Express API and CI/CD behind it. | `React Native` `Expo` `Express.js` |
+| [**Location-Based Treasure Hunt**](https://github.com/mudabbir-ahmad/MAD-Treasure-Hunt) | A mobile game that uses GPS and the compass to point you at hidden caches. Backed by a tested REST API. | `React Native` `REST` `Jest` |
+| [**Routines**](https://github.com/mudabbir-ahmad/Kotlin-TB2P1) | A native Android habit tracker with offline-first storage and reminders. | `Kotlin` `MVVM` `Room` |
+| [**QR Code Treasure Hunt**](https://github.com/mudabbir-ahmad/Treasure-Hunt-App) | A web scavenger hunt with QR codes and a live leaderboard. | `React` `JavaScript` |
+| **240 GHz Doppler Radar** | An ESP32 tracking three moving targets in real time, with a web dashboard served over Wi-Fi. | `ESP32` `Arduino` |
+| **Discord bot** | A bot that chats in text channels and joins voice calls, using a cloud model with a local model as fallback. | `Python` `LLMs` |
+| [**Opera GX Floorp sidebar**](https://github.com/mudabbir-ahmad/Opera-GX-Styled-Floorp-Sidebar) | A CSS tweak that makes the Floorp sidebar float over the page like Opera GX instead of tiling. | `CSS` |
+| [**Portfolio**](https://mudabbir.tech) | My site, with a live GitHub activity feed from an Express endpoint that keeps the token server-side. | `React` `Tailwind CSS` `Docker` |
 
 ## 💻 Working Environment & Infrastructure
 
@@ -80,8 +89,8 @@ Everything sits behind an Nginx reverse proxy, with Tailscale, WireGuard and Ope
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
-I run language models locally to learn how inference and serving work, and I use them in a Python Discord bot that talks in text channels and voice calls, with a cloud model and a local fallback.
+I run language models on my own hardware to learn how inference, context handling and serving actually work, rather than only calling an API.
 
-## Get in touch
+## Contact
 
-I'm open to graduate software engineering roles. The quickest way to reach me is by [email](mailto:mudabbira.uk@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/mudabbir-ahmad-4245a0281/), and my CV is available on [my portfolio](https://mudabbir.tech).
+Happy to talk about projects, self-hosting or work. [Email](mailto:mudabbira.uk@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mudabbir-ahmad-4245a0281/) is best.
